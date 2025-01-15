@@ -13,18 +13,52 @@ body {
     background-size: contain;
 }
 
-.bg-desktop {
-    width: 100%;
-}
-
 .header {
     width: 100%;
-    height: 10%;
+    height: 20%;
     display: flex;
-    
     align-items: center;
 }
 
 .header img {
     color: var(--white);
+    margin-left: 70px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+}
+
+.main .mockups {
+    padding: 30px 0px 0px 30px;
+    margin-left: 40px;
+}
+
+.main .connections {
+    color: var(--white);
+}
+
+.main .connections h1 {
+    padding: 55px 55px 20px 30px;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.main .connections p {
+    margin: 0px 35px 10px 0px;
+    padding: 0px 30px 0px 30px;
+    font-size: 20px;
+}
+
+.main .connections .btn-button {
+    padding: 10px 35px;
+    border-radius: 20px;
+    margin-left: 30px;    
+    transition: 0.3s;
+}
+
+.main .connections .btn-button:hover {
+    color: var(--white);
+    background-color: var(--Soft-Magenta);
 }
