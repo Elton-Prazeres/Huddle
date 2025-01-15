@@ -62,3 +62,25 @@ body {
     color: var(--white);
     background-color: var(--Soft-Magenta);
 }
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 120px;
+    height: 30px;
+}
+
+.social i {
+    color: var(--white);
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    font-size: 28px;
+}
+
+.social i:hover {
+    color: var(--Soft-Magenta);
+}
+
