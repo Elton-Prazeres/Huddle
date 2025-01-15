@@ -26,5 +26,5 @@ body {
 }
 
 .header img {
-    color: var(hsl(0, 0%, 100%);
+    color: var(--white);
 }
