@@ -1,0 +1,30 @@
+html{
+    width: 1440px;
+    height: 800px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1440px;
+    height: 800px;
+    background: url(../images/bg-desktop.png);
+    background-color: var(--Violet);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg-desktop {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    
+    align-items: center;
+}
+
+.header img {
+    color: var(hsl(0, 0%, 100%);
+}
