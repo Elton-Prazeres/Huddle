@@ -67,20 +67,26 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 120px;
+    margin-right: 80px;
     height: 30px;
 }
 
 .social i {
     color: var(--white);
-    padding: 20px;
+    /* padding: 20px;
     width: 30px;
-    height: 30px;
+    height: 30px; */
     transition: 0.3s;
-    font-size: 28px;
+    font-size: 18px;
+    padding: 7px 7px 5px 9px;
+    margin: 10px 10px 10px 10px;
+    border: 1.5px solid var(--white);
+    border-radius: 50%;
 }
 
 .social i:hover {
     color: var(--Soft-Magenta);
+    border: 1.5px solid;
+    border-radius: 50%;
 }
 
