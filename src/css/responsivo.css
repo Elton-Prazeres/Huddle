@@ -1,0 +1,80 @@
+@media (max-width: 425px){
+
+.header {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex-start;
+    margin: 25px;
+    height: 70px;
+}
+
+body {
+background: url(../images/bg-mobile.png);
+background-color: var(--Violet);
+background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: 6px;
+}
+
+.main .mockups {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo {
+    margin: 0px;
+    height: 30px;
+    width: 140px;
+}
+
+.illustration {
+    width: 300px;
+}
+
+.connections {
+    width: 345px;
+    margin: 25px;
+}
+
+.main .connections .h1 {
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main .connections .p {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main .connections a {
+    width: 345px;
+    align-items: center;
+}
+
+.main .connections .btn-button {
+    margin-left: 90px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.social {
+    max-width: 260px;
+    align-items: flex-start;
+}
+}
+/*2º resolution*/
+
+/* @media (max-width: 768px){
+    .projects{
+        
+    }
+} */
+
