@@ -1,4 +1,4 @@
-@media (max-width: 425px){
+@media screen and (min-width: 340px) and (max-width: 425px){
 
 .header {
     display: flex;
@@ -70,11 +70,3 @@ background-repeat: no-repeat;
     align-items: flex-start;
 }
 }
-/*2º resolution*/
-
-/* @media (max-width: 768px){
-    .projects{
-        
-    }
-} */
-
