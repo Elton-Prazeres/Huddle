@@ -73,9 +73,6 @@ body {
 
 .social i {
     color: var(--white);
-    /* padding: 20px;
-    width: 30px;
-    height: 30px; */
     transition: 0.3s;
     font-size: 18px;
     padding: 7px 7px 5px 9px;
