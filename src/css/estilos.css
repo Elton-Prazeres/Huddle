@@ -6,7 +6,8 @@ html{
 body {
     font-family: 'Open Sans', sans-serif;
     width: 1440px;
-    height: 800px;
+    margin: 0 auto;
+    height: 100vh;
     background: url(../images/bg-desktop.png);
     background-color: var(--Violet);
     background-repeat: no-repeat;
