@@ -76,10 +76,15 @@ body {
 .social i {
     color: var(--white);
     transition: 0.3s;
-    font-size: 18px;
-    padding: 7px 7px 5px 9px;
-    margin: 10px 10px 10px 10px;
-    border: 1.5px solid var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 15px;
+    margin: 20px 20px 20px 20px;
+    border: 2.5px solid var(--white);
     border-radius: 50%;
 }
 
