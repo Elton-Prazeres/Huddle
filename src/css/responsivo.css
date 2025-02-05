@@ -20,6 +20,7 @@ background: url(../images/bg-mobile.png);
 background-color: var(--Violet);
 background-repeat: no-repeat;
 margin: 0 auto;
+height: 100vh;
 }
 
 .main {
@@ -64,14 +65,27 @@ margin: 0 auto;
 }
 
 .main .connections .btn-button {
-    margin-left: 90px;
+    margin: 0 auto;
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-self: center;
+    height: 20vw;
+    height: 10vh;
+}
+
+nav {
+    width: 80vw;
+    text-align: center;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social {
-    max-width: 260px;
-    align-items: flex-start;
+    width: 97vw;
+    height: 20vh;
 }
 }
