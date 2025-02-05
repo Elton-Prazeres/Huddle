@@ -187,6 +187,12 @@ html {
 }
 
 body {
+    background: url(../images/bg-desktop.png);
+    background-color: var(--Violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100vh;
     width: 100vw;
 }
 
